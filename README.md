@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Getting Started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Prerequisites
+- Node.js and npm
+- Git
 
+## Installation
+
+- Clone the repository to your local machine
+- Navigate to the project directory
+- Install the required dependencies (`npm install`)
+
+
+## Start the development server:
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Open your browser and navigate to `http://localhost:3000` to view the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Additional Features
+## Testing
 
-### `npm test`
+This project uses [Cypress](https://www.cypress.io/) for testing and simple test was implemented. Cypress is a modern end-to-end testing framework for web applications.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the tests, use the following command in the project directory:
 
-### `npm run build`
+`npm run e2e`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Approach
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- I started by doing an analysis on the given tasks and I did a project planning for each page, navbars, buttons and logics.
+- I took research and did wireframes on how a shopping cart works and what all need to be included for a basic shopping cart on an ecommerce site
+- The project was started with a base template and layouts of main sections.
+- I chose to go with a simple and responsive UI design, not making it too complicated.
+- Every logic and functions were implemented and tested.
+- Bugs and errors were found and Changes were made on designs and functionality.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### further improvements like search bar to render list or to find a specific product, trimming the javascript bundles and using `Lazy loading images` could improve the performance of the app.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 ## Start the development server:
-### `npm run start`
+### `npm start`
 
 ## Open your browser and navigate to `http://localhost:3000` to view the application.
 
